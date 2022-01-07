@@ -1,4 +1,4 @@
-# The Onion tweet generation
+# "The Onion" tweet generation
 
 By Sebastien MILLET and Louise MERLAUD
 
