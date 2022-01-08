@@ -10,6 +10,8 @@ To do so, we have obtained all the tweets from @TheOnion (around 75,000 tweets) 
 
 Our approach will use a Bidirectional Long-Short Term Memory model in order to generate the headlines.
 
+We mostly used the Kaggle submission by Talevy23 about Trump tweets for our code : https://www.kaggle.com/talevy23/trump-tweet-generator-lstm-for-text-generation/notebook
+
 ## The Onion Tweets
 
 @TheOnion tweets are usually short headlines, with a humoristic spin.
