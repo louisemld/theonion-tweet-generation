@@ -10,15 +10,27 @@ To do so, we have obtained all the tweets from @TheOnion (around 75,000 tweets) 
 
 Our approach will use a Bidirectional Long-Short Term Memory model in order to generate the headlines.
 
+## The Onion Tweets
+
+@TheOnion tweets are usually short headlines, with a humoristic spin.
+Here is an example of one we use : 
+
+"‘You’re Going To Want To Take 3 Quick Lefts’ Says Passenger Expertly Hiding That He Fucked Up Directions"
+
+
 ## Word preprocessing 
 
 ### Cleaning and tokenization
 We first import all the tweets in a Pandas and clean them by removing special characters. We then proceed to a tokenization of the sentences by establishing a dictionnary for the characters, and its inverse dictionnary for the indexes generated. This will allow us to go from text to vectors and from vectors to text.
 
+Here is our dictionnary for the characters we have
+METTRE SCREEN DICTIONNARY OU COPIER COLLER
+
+
 ### Sentence creation
 
 Our aim is to predict the following characters after a given to create a headline. Therefore, we need to train the model to predict what the next character is. We create sentences of length 50 characters, and then go through the entire dataset step by step using a sliding filter. We thus give N characters and want to predict the N+1 character. 
-
+For the example we gave above, for a 10 character sentence, the first sentence would be : "you re goi". With a step of 1, the next sentence would thus be : "ou re goin", adding the next character "n" and removing the first "y". By decomposing the text in this way, the model will be able to train itself to predict the next character. 
 
 
 ## Model : LSTM
@@ -44,4 +56,7 @@ We decided to use Bidirectional LSTM. It is an additional step to better this ki
 
 
 ![alt text](https://github.com/louisemld/theonion-tweet-generation/blob/main/img/Bidirectional_LSTM.png?raw=true)
+
+
+## Results
 
