@@ -23,9 +23,25 @@ Our aim is to predict the following characters after a given to create a headlin
 
 ## Model : LSTM
 
-
-
+Long Short Term Memory is a type of Recurrent Neural Network, avoiding the long-term dependencies problem. Instead of having one single neural network layer, we have 4 of them, which interact between each other. 
 ![alt text](https://github.com/louisemld/theonion-tweet-generation/blob/main/img/LSTM.png?raw=true)
+
+
+The cell state is the horizontal line running through the top of the diagram. The LSTM model can add or remove information to this line, and is regulated by gates. The gate has the ability to decide which component is important or not to let through. 
+We have 3 types of gates : Forget, Input and Output
+
+The first one indicates how much of the past to remember
+![alt text](https://github.com/louisemld/theonion-tweet-generation/blob/main/img/Forget.png?raw=true)
+
+The second one tells us how much to include of the input in the model
+![alt text](https://github.com/louisemld/theonion-tweet-generation/blob/main/img/Input.png?raw=true)
+
+The last one gives us the part of the cell output to keep
+![alt text](https://github.com/louisemld/theonion-tweet-generation/blob/main/img/Output.png?raw=true)
+
+
+
+
 
 
 ![alt text](https://github.com/louisemld/theonion-tweet-generation/blob/main/img/Bidirectional_LSTM.png?raw=true)
