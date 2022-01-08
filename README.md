@@ -28,5 +28,5 @@ Our aim is to predict the following characters after a given to create a headlin
 ![alt text](https://github.com/louisemld/theonion-tweet-generation/blob/main/img/LSTM.png?raw=true)
 
 
-![alt text](https://github.com/louisemld/theonion-tweet-generation/blob/main/img/LSTM.png?raw=true)
+![alt text](https://github.com/louisemld/theonion-tweet-generation/blob/main/img/Bidirectional_LSTM.png?raw=true)
 
