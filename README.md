@@ -125,4 +125,16 @@ We decided to use Bidirectional LSTM. It is an additional step to better this ki
 
 ## Results
 
+For our model, we used a Bidirectional LSTM with 128 units.
+
 ![alt text](https://github.com/louisemld/theonion-tweet-generation/blob/main/img/Model.png?raw=true)
+
+Once we run our model, we get the following accuracy and loss, with a 10% validation set.
+
+![alt text](https://github.com/louisemld/theonion-tweet-generation/blob/main/img/Accuracy.png?raw=true)
+
+![alt text](https://github.com/louisemld/theonion-tweet-generation/blob/main/img/Loss.png?raw=true)
+
+## Prediction
+
+
