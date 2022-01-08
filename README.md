@@ -1,6 +1,6 @@
 # "The Onion" tweet generation
 
-By Sebastien MILLET and Louise MERLAUD
+By Louise MERLAUD and Sebastien MILLET
 
 
 Objective : to generate tweets from The Onion giving a subject. 
@@ -10,14 +10,10 @@ Dataset : around 75000 tweets from The Onion Twitter account. The Onion is a par
 ## Word preprocessing 
 
 
-## Models
+## Model : LSTM
 
-### RNN
 
-### LSTM
 
-### Seq to Seq
-
-![alt text](https://github.com/louisemld/theonion-tweet-generation/blob//LSTM.png?raw=true)
+![alt text](https://github.com/louisemld/theonion-tweet-generation/blob/main/LSTM.png?raw=true)
 
 
