@@ -125,3 +125,4 @@ We decided to use Bidirectional LSTM. It is an additional step to better this ki
 
 ## Results
 
+![alt text](https://github.com/louisemld/theonion-tweet-generation/blob/main/img/Model.jpg?raw=true)
