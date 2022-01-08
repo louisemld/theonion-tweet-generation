@@ -18,4 +18,6 @@ Dataset : around 75000 tweets from The Onion Twitter account. The Onion is a par
 
 ### Seq to Seq
 
-![alt text](https://github.com/louisemld/theonion-tweet-generation/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/louisemld/theonion-tweet-generation/blob//LSTM.png?raw=true)
+
+
