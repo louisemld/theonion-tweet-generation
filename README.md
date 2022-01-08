@@ -137,6 +137,8 @@ Once we run our model, we get the following accuracy and loss, with a 10% valida
 
 ## Prediction
 
+Unfortunately, despite the high enough accuracy, our model does not predict words and mainly gives vowels or space as output.
+If we input 'this is', our model outputs 'this is              a       a   ', which is a bad output.
 
 ## Limits
 The model is very long to run, and is very power and memory intensive.
