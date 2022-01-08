@@ -30,18 +30,17 @@ Long Short Term Memory is a type of Recurrent Neural Network, avoiding the long-
 The cell state is the horizontal line running through the top of the diagram. The LSTM model can add or remove information to this line, and is regulated by gates. The gate has the ability to decide which component is important or not to let through. 
 We have 3 types of gates : Forget, Input and Output
 
-The first one indicates how much of the past to remember
+- The first one indicates how much of the past to remember
 ![alt text](https://github.com/louisemld/theonion-tweet-generation/blob/main/img/Forget.png?raw=true)
 
-The second one tells us how much to include of the input in the model
+- The second one tells us how much to include of the input in the model
 ![alt text](https://github.com/louisemld/theonion-tweet-generation/blob/main/img/Input.png?raw=true)
 
-The last one gives us the part of the cell output to keep
+- The last one gives us the part of the cell output to keep
 ![alt text](https://github.com/louisemld/theonion-tweet-generation/blob/main/img/Output.png?raw=true)
 
 
-
-
+We decided to use Bidirectional LSTM. It is an additional step to better this kind of model by processing the data in both directions using separate hidden layers. This helps us predict the next character using past and future context, bettering our prediction. 
 
 
 ![alt text](https://github.com/louisemld/theonion-tweet-generation/blob/main/img/Bidirectional_LSTM.png?raw=true)
