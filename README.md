@@ -3,9 +3,12 @@
 By Louise MERLAUD and Sebastien MILLET
 
 
-Objective : to generate tweets from The Onion giving a subject. 
+Objective : The Onion is parodic news website, aimed at creating funny news stories. On its twitter page, the Onion gives the headlines of its articles with a link to its page. Each headline is thus freely available and a humorous take on the news.
+Given the parodic nature of their headlines, we want to attempt to generate new headlines by building a model that can automatically generate a tweet given the first word. 
 
-Dataset : around 75000 tweets from The Onion Twitter account. The Onion is a parodic account (The Gorafi equivalent) that gives headlines of articles in their tweets, with the link to the article. We want to predict a headline giving the first word. 
+To do so, we have obtained all the tweets from @TheOnion (around 75,000 tweets). 
+
+
 
 ## Word preprocessing 
 
