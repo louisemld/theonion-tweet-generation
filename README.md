@@ -138,3 +138,6 @@ Once we run our model, we get the following accuracy and loss, with a 10% valida
 ## Prediction
 
 
+## Limits
+The model is very long to run, and is very power and memory intensive.
+We could improve our predictions by using embedding methods such as FastText or Word2Vec. 
