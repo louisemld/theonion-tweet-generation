@@ -28,7 +28,7 @@ Long Short Term Memory is a type of Recurrent Neural Network, avoiding the long-
 
 
 The cell state is the horizontal line running through the top of the diagram. The LSTM model can add or remove information to this line, and is regulated by gates. The gate has the ability to decide which component is important or not to let through. 
-We have 3 types of gates : Forget, Input and Output
+We have 3 types of gates : Forget, Input and Output.
 
 - The first one indicates how much of the past to remember
 ![alt text](https://github.com/louisemld/theonion-tweet-generation/blob/main/img/Forget.png?raw=true)
